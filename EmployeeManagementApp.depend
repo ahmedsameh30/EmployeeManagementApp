@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1707245824 source:f:\codeblocksfile\employeemanagementapp\main.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	"Department.h"
+	"Staff.h"
+	"Project.h"
+
+1707246495 source:f:\codeblocksfile\employeemanagementapp\src\department.cpp
+	"Department.h"
+
+1707246495 f:\codeblocksfile\employeemanagementapp\include\department.h
+	<iostream>
+	<string>
+	<fstream>
+
+1707246453 source:f:\codeblocksfile\employeemanagementapp\src\staffmember.cpp
+	"StaffMember.h"
+
+1707246495 f:\codeblocksfile\employeemanagementapp\include\staffmember.h
+	<bits/stdc++.h>
+
+1707246665 source:f:\codeblocksfile\employeemanagementapp\src\employee.cpp
+	"Employee.h"
+
+1696241935 f:\codeblocksfile\employeemanagementapp\include\employee.h
+	<StaffMember.h>
+	<string>
+
+1707251235 source:f:\codeblocksfile\employeemanagementapp\src\volunteer.cpp
+	"Volunteer.h"
+	<windows.h>
+
+1696233396 f:\codeblocksfile\employeemanagementapp\include\volunteer.h
+	<StaffMember.h>
+	<iostream>
+	<fstream>
+
+1696265099 source:f:\codeblocksfile\employeemanagementapp\src\staff.cpp
+	"Staff.h"
+	<cstdlib>
+	<windows.h>
+
+1696248196 f:\codeblocksfile\employeemanagementapp\include\staff.h
+	"StaffMember.h"
+	"Volunteer.h"
+	"HourlyEmployee.h"
+	"ExecutiveEmployee.h"
+	"CommissionEmployee.h"
+	<iostream>
+
+1707253623 source:f:\codeblocksfile\employeemanagementapp\src\commissionemployee.cpp
+	"CommissionEmployee.h"
+	<windows.h>
+
+1707252760 f:\codeblocksfile\employeemanagementapp\include\commissionemployee.h
+	<Employee.h>
+	<iostream>
+
+1707254437 source:f:\codeblocksfile\employeemanagementapp\src\executiveemployee.cpp
+	"ExecutiveEmployee.h"
+	<windows.h>
+
+1696318878 f:\codeblocksfile\employeemanagementapp\include\executiveemployee.h
+	<SalariedEmployee.h>
+	<bits/stdc++.h>
+
+1707253737 f:\codeblocksfile\employeemanagementapp\include\salariedemployee.h
+	<Employee.h>
+
+1707253706 source:f:\codeblocksfile\employeemanagementapp\src\salariedemployee.cpp
+	"SalariedEmployee.h"
+
+1707252658 source:f:\codeblocksfile\employeemanagementapp\src\hourlyemployee.cpp
+	"HourlyEmployee.h"
+	<windows.h>
+
+1696244688 f:\codeblocksfile\employeemanagementapp\include\hourlyemployee.h
+	<Employee.h>
+	<bits/stdc++.h>
+
+1707255438 source:f:\codeblocksfile\employeemanagementapp\src\budget.cpp
+	"Budget.h"
+	<bits/stdc++.h>
+
+1707255203 f:\codeblocksfile\employeemanagementapp\include\budget.h
+	<bits/stdc++.h>
+
+1707254988 source:f:\codeblocksfile\employeemanagementapp\src\project.cpp
+	"Project.h"
+	<fstream>
+
+1707254988 f:\codeblocksfile\employeemanagementapp\include\project.h
+	"Budget.h"
+	<bits/stdc++.h>
+
